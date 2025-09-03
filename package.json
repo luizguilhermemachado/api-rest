@@ -10,6 +10,7 @@
     "dev": "tsx watch src/server.ts",
     "lint": "eslint src --ext .ts --fix",
     "knex": "node --import tsx ./node_modules/.bin/knex",
+    "migrate": "npm run knex -- migrate:latest",
     "test": "npx vitest",
     "build": "tsup src"
   },
