@@ -1,0 +1,8 @@
+#Dependencis
+node_modules
+.env
+dist
+.env.test
+
+
+db/*.db
